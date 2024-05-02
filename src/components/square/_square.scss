@@ -1,0 +1,22 @@
+.square {
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #999;
+    background-color: #fff;
+    cursor: pointer;
+    float: left;
+  }
+  
+  .square:hover {
+    background-color: #ddd;
+  }
+  
+  /* Optional: Add styles for different players' marks */
+  .square.X {
+    color: blue;
+  }
+  
+  .square.O {
+    color: red;
+  }

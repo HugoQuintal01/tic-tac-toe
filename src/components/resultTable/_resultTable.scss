@@ -1,0 +1,38 @@
+.app .result-table {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h2{
+      text-align: center;
+      font-weight: 300;
+      width: 100%;
+    }
+  }
+  
+  .result-table table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .result-table th,
+  .result-table td {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .result-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .result-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .result-table tr:hover {
+    background-color: #ddd;
+  }
+  
